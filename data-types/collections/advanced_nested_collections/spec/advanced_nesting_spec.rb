@@ -21,9 +21,9 @@ RSpec.describe 'Advanced Nested Collections' do
     expect(employees).to eq(expected)
   end
 
-  xit 'test 2' do
+  it 'test 2' do
     # Find the ingredients for pancakes
-    pancake_ingredients = _____
+    pancake_ingredients = stores[:dennys][:dishes]
 
     expected = ["Flour", "Eggs", "Milk", "Syrup"]
     expect(pancake_ingredients).to eq(expected)
@@ -107,7 +107,7 @@ RSpec.describe 'Advanced Nested Collections' do
     # Return the full menu for Olive Garden
 
     olive_garden_menu = _____
-    
+
     expected = {
       "Risotto" => {
         :name => "Risotto",

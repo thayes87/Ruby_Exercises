@@ -1,3 +1,4 @@
+require 'pry'
 RSpec.describe 'sort_by pattern' do
 
   it 'sorts alphabetically' do
